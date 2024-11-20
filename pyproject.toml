@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "clipi"
 version = "0.1.0"
-description = "A basic project to enhance clis"
-authors = ["pentabeit <codingchameleon0@gmail.com>"]
+description = ""
+authors = ["Your Name <you@example.com>"]
 exclude = ["README.md", "useClient.md", "logs/**/*"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+click = "^8.1.7"
 
 
 [build-system]
