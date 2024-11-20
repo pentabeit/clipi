@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 exclude = ["README.md", "useClient.md", "logs/**/*"]
+packages = [{include = "clipi"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
